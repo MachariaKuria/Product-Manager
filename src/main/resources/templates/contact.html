@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact Manager</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<nav>
+    <li><a class="active" th:href="@{'/'}">Home</a></li>
+    <li><a th:href="@{'/news/'}">News</a></li>
+    <li><a th:href="@{'/about/'}">About</a></li>
+</nav>
+
+<body>
+    <div align="center">
+        <h1>Contact Details</h1>
+
+        <address>
+            <h3>831 Technology Square</h3>
+            <p>Global Headquarters<br />
+                831 Cutlip Drive<br />
+                Worthington, OH 43085<br />
+                Phone: 614-316-6888, Fax: 614-352-2669<br />
+                Email: &nbsp;<a href="skuria@ups.com"></a><br />
+
+            </p><br />
+            <p>For directions to the location,&nbsp;<a href="http://goo.gl/maps/fyXTk6kAEGr" target="_blank">Click
+                    here.</a></p>
+        </address>
+
+        <p>If you wish to unsubscribe from our emails,&nbsp;<a th:href="@{'/'}">click here.</a></p>
+
+    </div>
+</body>
+
+</html>

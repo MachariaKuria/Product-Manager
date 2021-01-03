@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact Manager</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<nav>
+    <li><a class="active" th:href="@{'/'}">Home</a></li>
+    <li><a th:href="@{'/news/'}">News</a></li>
+    <li><a th:href="@{'/about/'}">About</a></li>
+</nav>
+
+<body>
+    <div class="about">
+        <h1>About Us</h1>
+        <h2>Technology is the solution to combating Corruption in Kenya.</h2>
+        <p>Social media, Artificial Intelligence, Open disclosure of procurements, Digitizing documentation,
+            Accelerating Innovations and implementing survellance are some of the ways the Kenyan governement can use
+            technology to disrupt corruption.</p>
+        <p>We're proud to serve nearly half of America’s households with a broad range of technical services, including
+            personal e-commerce, mobile app development, in house technical enhancement, project modifications,
+            investment advice, small business projects and payment capture.</p>
+
+        <p>If you wish to unsubscribe from our emails,&nbsp;<a th:href="@{'/'}">click here.</a></p>
+    </div>
+</body>
+
+</html>
